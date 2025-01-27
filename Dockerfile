@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Copy requirements file and install dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --only-binary :all: -r requirements.txt
 
 # Preload the Hugging Face model during build
 RUN python -c "\
