@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+
+# Ignore all .idea/
+.idea/
+
+# Ignore all __pycache__
+__pycache__/
+
+# Ignore settings
+.env
+
+# Ignore all .pytest_cache/
+.pytest_cache/
