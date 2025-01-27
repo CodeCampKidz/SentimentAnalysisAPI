@@ -1,7 +1,7 @@
 # Sentiment Analysis API
 
 ## Overview
-Sentiment Analysis API is a Python-based FastAPI application for performing sentiment analysis on text. It leverages the Hugging Face `transformers` library and connects to MongoDB Atlas for storing and retrieving sentiment analysis records.
+Sentiment Analysis API is a Python-based FastAPI application for performing sentiment analysis on text. It leverages the `transformers` library and connects to MongoDB Atlas for storing and retrieving sentiment analysis records.
 
 ## Public endpoints
 POST /analyze  
@@ -38,7 +38,7 @@ Response Model:
 <li>Transformers sentiment analysis</li>
 <li>MongoDB Atlas storage</li>
 <li>Unittests for endpoints and sentiment model</li>
-<li>Docker containerization with uittests</li>
+<li>Docker containerization with unittests</li>
 <li>Github Actions that trigger unittests on PR</li>
 </ul>
 
@@ -49,7 +49,6 @@ Response Model:
 <li>go into the SentimentAnalysisAPI directory: "cd SentimentAnalysisAPI"</li>
 <li>setup the virtual environment: "python -m venv venv"</li>
 <li>activate the environment: "venv\Scripts\activate"</li>
-<li>update pip: "pip install --upgrade pip"</li>
 <li>install requirements: "pip install --only-binary :all: -r requirements.txt"</li>
 </ol>
 
@@ -58,7 +57,6 @@ Response Model:
 <li>Create a .env file at the root of the project at the same level as .env.example.</li>
 <li>Copy the key/value pairs from .env.example to the new .env file.</li>
 <li>Get the key values for MONGODB_URI, MONGODB_DATABASE, MONGODB_COLLECTION & BEARER_TOKEN from an administrator.</li>
-
 </ol>
 
 ## 3a. Running with Uvicorn
