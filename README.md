@@ -76,3 +76,5 @@ Note: building the container image will automaticaly trigger unittests.
 <ol>
 <li>Once the app is running with either Uvicorn or Docker, navigate to the Swagger API documentation for manual testing: "http://127.0.0.1:8000/docs"<br>Note: You will need the bearer token to execute the API calls. This is the same bearer token from the .env file.</li>
 </ol>
+
+<ol></ol>
